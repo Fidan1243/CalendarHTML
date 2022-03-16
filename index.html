@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form class="frm">
+        <select name="month" id="month">
+            <option value=0>January</option>
+            <option value=1>February</option>
+            <option value=2>March</option>
+            <option value=3>April</option>
+            <option value=4>May</option>
+            <option value=5>June</option>
+            <option value=6>July</option>
+            <option value=7>August</option>
+            <option value=8>September</option>
+            <option value=9>October</option>
+            <option value=10>November</option>
+            <option value=11>December</option>
+        </select>
+        <select name="year" id="year">
+        </select>
+    </form>
+    <button class="gnt" onclick="jump()">Generate</button>
+    <div class="main">
+        <div class="haha">
+
+            <button id="prv">&larr;</button>
+            <button id="nxt">&rarr;</button>
+        </div>
+        <div class="w-days">
+            <p id="Month">March</p>
+            <hr>
+            <p class="week" id="su">Su</p>
+            <p class="week" id="mnd">Mo</p>
+            <p class="week" id="td">Tu</p>
+            <p class="week" id="w">We</p>
+            <p class="week" id="th">Th</p>
+            <p class="week" id="fr">Fr</p>
+            <p class="week" id="sa">Sa</p>
+        </div>
+        <div id="d-days">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
